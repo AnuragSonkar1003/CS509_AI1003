@@ -5,8 +5,8 @@
 using namespace std;
 
 int main() {
-    ifstream fin("input_csr.txt");
-    ofstream fout("output.txt");
+    ifstream fin("../input/input_csr.txt");
+    ofstream fout("../output/output.txt");
 
     if (!fin) {
         cout << "Error opening input.txt" << endl;

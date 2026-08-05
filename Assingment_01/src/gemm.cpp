@@ -5,12 +5,12 @@
 using namespace std;
 
 int main() {
-    ifstream fin("../input/input_gemm.txt");
-    ofstream fout("../output/output.txt");
+    ifstream fin("./Assingment_01/input/input_gemm.txt");
+    ofstream fout("./Assingment_01/output/output.txt");
 
     if (!fin) {
         if (!fin) {
-            cerr << "Error: Cannot open ../input/input_gemm.txt" << endl;
+            cerr << "Error: Cannot open ./Assingment_01/input/input_gemm.txt" << endl;
             return 1;
     
     }
