@@ -26,6 +26,7 @@ int main() {
     cout << "========== Main Menu ==========\n";
     cout << "1. Assignment 01\n";
     cout << "2. Assignment 02\n";
+    cout << "3. Assignment 03\n";
     cout << "Enter your choice: ";
     cin >> choice;
 
@@ -39,6 +40,10 @@ int main() {
             runProgram("Assignment 02",
                        "cd Assignment_02/driver && ./driver");
             break;
+        case 3:
+            runProgram("Assignment 03",
+                       "cd Assignment_03/driver && ./driver");
+            break;
 
         default:
             cout << "Invalid choice!\n";
@@ -47,3 +52,5 @@ int main() {
 
     return 0;
 }
+
+
